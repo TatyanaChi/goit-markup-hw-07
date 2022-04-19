@@ -1,0 +1,11 @@
+.accent {
+  color: var(--accent-color);
+}
+
+.logo-header {
+  margin-right: 94px;
+
+  font-family: var(--secondary-font-family);
+  @include fonts(700, 26px, 31px);
+  color: var(--primary-text-color);
+}
